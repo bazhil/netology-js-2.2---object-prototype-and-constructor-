@@ -91,10 +91,10 @@ for (let item of positions) {
         try {
           if (finalPrice > item.price) {
               throw 'Цена со скидкой больше базовой цены.';
-          }
-          item.discount = Math.round((this.price - finalPrice) / (this.price * 0.01) * 100) / 100;
-          } catch(err) {
-            console.log(`Ошибка при расчете скидки: ${err}`);
+            }
+            item.discount = Math.round((this.price - finalPrice) / (this.price * 0.01) * 100) / 100;
+            } catch(err) {
+              console.log(`Ошибка при расчете скидки: ${err}`);
           }
       }
     };
