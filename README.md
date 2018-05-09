@@ -1,0 +1,1 @@
+# netology-js-2.2---object-prototype-and-constructor-
